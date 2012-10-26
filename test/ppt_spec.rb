@@ -18,4 +18,5 @@ describe PiedraPapelTijeras do
   end
   it"Debe existir una lista de jugadas posibles y quien gana" do
       @ppt.respond_to?("tiradas_validas").should == TRUE
+  end
 end

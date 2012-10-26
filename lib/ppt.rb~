@@ -1,4 +1,5 @@
 class PiedraPapelTijeras
+    attr_accessor :opcionhumano, :opcionmaquina, :tiradas_validas
     def initialize()
         @opcionhumano = ""
 	@opcionmaquina = ""

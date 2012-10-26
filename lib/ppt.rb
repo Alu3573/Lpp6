@@ -4,6 +4,7 @@ class PiedraPapelTijeras
         @opcionhumano = ""
 	@opcionmaquina = ""
 	@tiradas_validas = %w[piedra papel tijeras]
+	@tiradas_posibles = {'rock' => 'paper','paper' => 'scissors','scissors' => 'rock'}
     end
     def jugadahumano()
         @opcionhumano = ""

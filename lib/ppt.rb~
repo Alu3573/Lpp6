@@ -1,6 +1,6 @@
 class PiedraPapelTijeras
     def initialize(opcion)
-        @opcionhumano = opcion
+        @opcionhumano = opcion;
     end
     def jugadahumano()
         @opcionhumano = nil
